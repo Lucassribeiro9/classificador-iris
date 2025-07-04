@@ -10,5 +10,5 @@ Caso queira criar seu ambiente virtual, siga os passos abaixo:
 
 1. Crie um ambiente virtual com o comando `python3 -m venv venv`
 2. Ative o ambiente virtual com o comando `source venv/bin/activate`
-3. Instale as bibliotecas com o comando `pip install pandas scikit-learn` ou se preferir, use o arquivo requirements.txt com o comando `pip install -r requirements.txt`
+3. Instale as bibliotecas com o comando `pip install pandas scikit-learn` ou se preferir, use o arquivo `requirements.txt` com o comando `pip install -r requirements.txt`
 4. Caso tenha clonado o projeto, execute o comando `python3 analise-iris.ipynb` para executar o notebook em sua maquina local. Se for executar via jupyter notebook, acesse via terminal o caminho do projeto e digite o comando `jupyter notebook`. Ele abrirá no navegador
