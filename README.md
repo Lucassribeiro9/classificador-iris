@@ -2,7 +2,7 @@
 
 Este projeto é um estudo de ponta a ponta que aborda os passos fundamentais para a criação de um modelo de Machine Learning, desde a análise dos dados até a avaliação e salvamento do modelo final. Utilizando o clássico dataset "Iris", o objetivo é construir um sistema capaz de classificar corretamente as espécies de flores Íris com base em suas características físicas.
 
-Este repositório foi construído de forma interativa e didática, servindo como um guia prático para iniciantes na área de Ciência de Dados.
+Este repositório foi construído de forma interativa e didática, servindo como um guia prático para os meus próximos projetos.
 
 ## 🎯 Funcionalidades
 
