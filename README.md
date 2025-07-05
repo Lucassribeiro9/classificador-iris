@@ -38,8 +38,8 @@ Siga os passos abaixo para configurar e executar o projeto em sua máquina local
 **1. Clone o Repositório**
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
+git clone https://github.com/Lucassribeiro9/classificador-iris.git
+cd classificador-iris
 ```
 
 **2. Crie e Ative o Ambiente Virtual**
