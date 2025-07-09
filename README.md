@@ -4,6 +4,8 @@ Este projeto é um estudo de ponta a ponta que aborda os passos fundamentais par
 
 Este repositório foi construído de forma interativa e didática, servindo como um guia prático para os meus próximos projetos.
 
+Para acessar o app: [Classificador de íris](https://iris-classifierstudy.streamlit.app)
+
 ## 🎯 Funcionalidades
 
 O notebook `analise-iris.ipynb` cobre o seguinte fluxo de trabalho:
