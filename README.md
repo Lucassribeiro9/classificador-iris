@@ -1,6 +1,6 @@
 # 🌳 Classificador de Espécies de Íris
 
-Este projeto é um estudo de ponta a ponta que aborda os passos fundamentais para a criação de um modelo de Machine Learning, desde a análise dos dados até a avaliação e salvamento do modelo final. Utilizando o clássico dataset "Iris", o objetivo é construir um sistema capaz de classificar corretamente as espécies de flores Íris com base em suas características físicas.
+Este projeto é um estudo de ponta a ponta que aborda os passos fundamentais para a criação de um modelo de Machine Learning, desde a análise dos dados até a avaliação e salvamento do modelo final. Utilizando o clássico dataset "Iris", o objetivo é construir um sistema capaz de classificar corretamente as espécies de flores Íris com base em suas características físicas. Foi feito também uma interface web para facilitar o uso do modelo e aumentar a possibilidade de testá-los.
 
 Este repositório foi construído de forma interativa e didática, servindo como um guia prático para os meus próximos projetos.
 
@@ -22,6 +22,8 @@ O notebook `analise-iris.ipynb` cobre o seguinte fluxo de trabalho:
 - **Validação Robusta:** Uso de **Validação Cruzada (Cross-Validation)** para garantir uma estimativa mais confiável da performance do modelo.
 - **Persistência do Modelo:** Demonstração de como salvar o modelo treinado em um arquivo (`.joblib`) e carregá-lo para uso futuro.
 
+O `app.py` cria uma interface web para testar o modelo treinado e visualizar o desempenho. Ele trabalhará em cima do modelo salvo, chamado `iris_tree_model.pkl`.
+
 ## 🛠️ Tecnologias Utilizadas
 
 - **Python 3.12**
@@ -30,6 +32,8 @@ O notebook `analise-iris.ipynb` cobre o seguinte fluxo de trabalho:
 - **Scikit-learn:** Para os algoritmos de Machine Learning, pré-processamento e métricas de avaliação.
 - **Matplotlib & Seaborn:** Para a visualização de dados.
 - **Joblib:** Para salvar e carregar o modelo treinado.
+- **Streamlit:** Para criar uma interface web para o modelo.
+- **NumPy:** Para operações numéricas.
 
 ## 🚀 Como Executar o Projeto
 
@@ -70,6 +74,8 @@ matplotlib
 seaborn
 jupyter
 joblib
+streamlit
+numpy
 ```
 
 Em seguida, instale todas as bibliotecas de uma vez com o comando:
@@ -88,8 +94,19 @@ jupyter notebook
 
 Isso abrirá uma aba no seu navegador. Clique no arquivo `analise-iris.ipynb` para abri-lo e executar as células de código.
 
+**5. Execute o App Streamlit**
+
+Com o ambiente virtual ativo e as bibliotecas instaladas, inicie o servidor Streamlit:
+
+```bash
+streamlit run app.py
+```
+Ele abrirá uma interface web com o modelo treinado e com um formulário para testá-lo.
+![streamlit-app-iris](image.png)
+
 ## 📈 Resultados
 
 Os modelos treinados apresentaram excelente performance, alcançando **100% de acurácia** no conjunto de teste para as configurações otimizadas. A análise de importância de features revelou que as características da **pétala** (`petal length` e `petal width`) são significativamente mais informativas para a classificação do que as características da sépala.
 
 A validação cruzada confirmou a robustez do modelo de Árvore de Decisão, apresentando uma acurácia média consistente e com baixo desvio padrão.
+Através da interface web, os usuários podem testar o modelo treinado e visualizar o desempenho do modelo.
